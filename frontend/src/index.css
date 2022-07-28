@@ -40,8 +40,11 @@ header a {
 
 /* Homepage */
 .home {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 95%;
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 2fr 1fr;
 	gap: 8rem;
 }
 
@@ -75,4 +78,38 @@ header a {
 	background-color: #f1f1f1;
 	padding: 0.5rem;
 	color: #333;
+}
+
+/* Workout Form */
+label,
+input {
+	display: block;
+}
+
+input {
+	padding: 0.75rem;
+	margin-top: 0.75rem;
+	margin-bottom: 1.5rem;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 0.25rem;
+	box-sizing: border-box;
+}
+
+form button {
+	background-color: var(--primary);
+	border: 0;
+	color: #fff;
+	padding: 0.75rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+.error {
+	padding: 0.75rem;
+	background-color: #ffefef;
+	border: 1px solid var(--error);
+	color: var(--error);
+	border-radius: 0.25rem;
+	margin: 1.25rem 0;
 }
