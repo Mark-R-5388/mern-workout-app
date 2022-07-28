@@ -37,3 +37,42 @@ header a {
 	padding: 1rem;
 	margin: 0 auto;
 }
+
+/* Homepage */
+.home {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 8rem;
+}
+
+/* Workout Details */
+.workout-details {
+	background-color: #fff;
+	border-radius: 0.25rem;
+	margin: 1rem auto;
+	padding: 1rem;
+	position: relative;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
+}
+
+.workout-details h3 {
+	margin: 0 0 0.75rem 0;
+	font-size: 1.2em;
+	color: var(--primary);
+}
+
+.workout-details p {
+	margin: 0.5rem 0;
+	font-size: 0.9em;
+	color: #555;
+}
+
+.workout-details span {
+	position: absolute;
+	top: 1.25rem;
+	right: 1.25rem;
+	cursor: pointer;
+	background-color: #f1f1f1;
+	padding: 0.5rem;
+	color: #333;
+}
